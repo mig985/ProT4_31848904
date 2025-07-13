@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS rest_api;
+USE rest_api;
+
+CREATE TABLE libros (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  titulo VARCHAR(100) NOT NULL,
+  autor VARCHAR(100) NOT NULL,
+  año INT,
+  editorial VARCHAR(100),
+  isbn VARCHAR(30) UNIQUE NOT NULL
+);
