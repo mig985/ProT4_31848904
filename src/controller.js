@@ -95,3 +95,4 @@ class LibroController {
 }
 
 export const libro = new LibroController();
+// Log para debug de eliminación por ISBN
